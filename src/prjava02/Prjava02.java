@@ -17,8 +17,9 @@ public static void main(String[] args) { try {
     System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
     System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
     System.out.println("Versió OS: " + System.getProperty("os.version"));
-}
     System.out.println("Creaci&oacute; d'una branca del projecte prjava02"));
+    System.out.println("Afegint m&eacute;s codi a la branca00 del projecte prjava02"));
+
 }
 catch (IOException e) { e.printStackTrace();
 }}}
